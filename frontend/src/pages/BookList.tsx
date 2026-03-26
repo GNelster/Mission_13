@@ -46,6 +46,9 @@ function BookList() {
     <>
       <div className="container mt-4">
         <h3>Hilton's Runtime Reads</h3>
+        <a href="/adminbooks" className="btn btn-sm btn-outline-secondary mb-2">
+          Admin
+        </a>
 
         {/* Cart Summary - Full Width Bar */}
         <CartSummary currentPage={pageNum} currentCategory={selectedCategory} />

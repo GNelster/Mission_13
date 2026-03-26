@@ -92,6 +92,10 @@ function AdminBooks() {
   return (
     <div className="container mt-4">
       <h3>Admin –– Manage Books</h3>
+      <a href="/" className="btn btn-sm btn-outline-secondary mb-2">
+        Storefront
+      </a>
+      <br />
       <button className="btn btn-success mb-3" onClick={handleAdd}>
         + Add New Book
       </button>
