@@ -1,0 +1,70 @@
+h1 {
+  color: #1a2e4a;
+  font-family: 'Georgia', serif;
+  letter-spacing: -0.5px;
+}
+
+table {
+  font-family: 'Georgia', serif;
+}
+
+th {
+  background-color: #1a2e4a;
+  color: white;
+  letter-spacing: 0.04em;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+td {
+  color: #2c3e50;
+  font-size: 0.95rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f4f7fb;
+}
+
+tr:hover {
+  background-color: #dce8f5;
+  transition: background-color 0.2s ease;
+}
+
+.alert-secondary {
+  background-color: #eef2f7;
+  border-color: #d0dce9;
+  color: #1a2e4a;
+}
+
+.btn-primary {
+  background-color: #1a2e4a;
+  border-color: #1a2e4a;
+}
+
+.btn-primary:hover {
+  background-color: #243f66;
+  border-color: #243f66;
+}
+
+.form-check-input:checked {
+  background-color: #1a2e4a;
+  border-color: #1a2e4a;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #1a2e4a;
+  border-color: #1a2e4a;
+}
+
+.pagination .page-link {
+  color: #1a2e4a;
+}
+
+.pagination .page-link:hover {
+  background-color: #dce8f5;
+  color: #1a2e4a;
+}
+.pagination .page-item.active .page-link {
+  color: white;
+}
