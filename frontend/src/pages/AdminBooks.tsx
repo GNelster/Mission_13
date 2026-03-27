@@ -18,7 +18,7 @@ function AdminBooks() {
   const [editingBook, setEditingBook] = useState<Book | null>(null);
   const [formData, setFormData] = useState(emptyBook);
 
-  const API = 'hiltons-runtime-reads-backend-cjgegacwa9cab8cg.northcentralus-01.azurewebsites.net/Bookstore';
+  const API = 'https://hiltons-runtime-reads-backend-cjgegacwa9cab8cg.northcentralus-01.azurewebsites.net/Bookstore';
 
   // Load up all books
   const fetchBooks = () => {
