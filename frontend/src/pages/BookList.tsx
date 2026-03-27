@@ -27,7 +27,7 @@ function BookList() {
 
   useEffect(() => {
     fetch(
-      `https://localhost:5000/Bookstore/Books?pageNum=${pageNum}&pageSize=${pageSize}&sortBy=${sortBy}&category=${selectedCategory}`
+      `hiltons-runtime-reads-backend-cjgegacwa9cab8cg.northcentralus-01.azurewebsites.net/Bookstore/Books?pageNum=${pageNum}&pageSize=${pageSize}&sortBy=${sortBy}&category=${selectedCategory}`
     )
       .then((res) => res.json())
       .then((data) => {
@@ -37,7 +37,9 @@ function BookList() {
   }, [pageNum, pageSize, sortBy, selectedCategory]);
 
   useEffect(() => {
-    fetch('https://localhost:5000/Bookstore/Categories')
+    fetch(
+      'hiltons-runtime-reads-backend-cjgegacwa9cab8cg.northcentralus-01.azurewebsites.net/Bookstore/Categories'
+    )
       .then((res) => res.json())
       .then((data) => setCategories(data));
   }, []);
